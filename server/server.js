@@ -2,14 +2,12 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
-import express from "express";
-import morgan from "morgan";
+import express from "express"; 
 
 dotenv.config();
 const app = express();
 app.use(cors());
-app.use(bodyParser.json());
-app.use(morgan());
+app.use(bodyParser.json()); 
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
