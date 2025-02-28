@@ -45,9 +45,9 @@ export function ChatBox() {
       allowAttachments={false}
       stop={stop}
       suggestions={[
-        "What are the symptoms of diabetes?",
-        "What are the side effects of ibuprofen?",
-        "What are the symptoms of a heart attack?",
+        'What are the symptoms of dengue?',
+        'What is the difference between dengue and malaria?',
+        'What are the symptoms of malaria?',
       ]}
     />
   );
