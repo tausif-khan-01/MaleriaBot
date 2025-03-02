@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="h-screen  p-5 md:p-10">
       <div className="flex flex-col h-full max-w-2xl mx-auto px-4  ">
-        <h1 className="text-2xl font-semibold border-b my-2">🦟 Degue/ Maleria detector</h1>
+        <h1 className="text-2xl font-semibold border-b my-2">🦟 Dengue & Maleria detector</h1>
 
         <div className="flex-1 flex overflow-hidden  ">
           <ChatBox />
